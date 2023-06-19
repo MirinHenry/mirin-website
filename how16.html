@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            position: relative;
+            background-color: gold;
+            animation-name: myanimation;
+            animation-duration: 2s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            animation-delay: 2s;
+            animation-direction: normal;
+        }
+        
+        @keyframes myanimation {
+            0% {
+                background-color: gold;
+                top: 0px;
+                left: 0px;
+            }
+            25% {
+                background-color: green;
+                top: 400px;
+                left: 400px;
+            }
+            50% {
+                background-color: gold;
+                top: 0%;
+                left: 400px;
+            }
+            75% {
+                background-color: gold;
+                top: 400px;
+                left: 0px;
+            }
+            100% {
+                background-color: green;
+                top: 0px;
+                left: 0px;
+            }
+        }
+        
+        @keyframes myanimation {
+            from {
+                font-size: 20px;
+                color: red;
+            }
+            to {
+                font-size: 40px;
+                color: red;
+            }
+        }
+        
+        p {
+            animation-name: myanimation;
+            animation-duration: 2s;
+            animation-fill-mode: backwards;
+        }
+        
+        .column {
+            column-count: 2;
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+    <p>hg rgrh grghtgt gtgthjg gbththg tbthbghtg tghtbgh</p>
+
+    </div>
+</body>
+
+</html>
